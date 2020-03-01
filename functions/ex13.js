@@ -1,7 +1,7 @@
-function repeat(ch, n = 0) {
+function repeat(ch,n=0) {
   let ch2 = '';
-  for (let i = 0; i < n; i++) {
-    ch2 = ch2 + ch;
+  for (let i=0; i<n;i++) {
+    ch2 = ch2 + ch;;;
   }
   return ch2;
 }
